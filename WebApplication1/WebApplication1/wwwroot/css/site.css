@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+      html {
+        font-size: 16px;
+      }
+    }
+
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+
+    body {
+      margin-bottom: 60px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .table_content {
+        width: 70%;
+        padding: 20px;
+    }   
+
+    .table_content thead th {
+        padding: 12px;
+        border-collapse: collapse;
+    }
+
+    .table_content tbody tr td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+.content {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
